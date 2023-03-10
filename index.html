@@ -16,7 +16,9 @@
         .wrapper {
             margin: 0 8rem;
         }
-
+        .activities{
+           align-items: center;
+        }
         .asabeneh {
             margin-top: 2rem;
             font-weight: bold;
@@ -25,17 +27,13 @@
             text-align: left;
             margin-left: 1rem;
         }
-
-
-
         .activity {
             padding-top: 1.2rem;
         }
 
         .marquee {
-            width: 60rem;
+            width: auto;
             line-height: 50px;
-
             background-color: #eddfde;
             color: Black;
             white-space: nowrap;
@@ -45,7 +43,6 @@
 
         .marquee p {
             display: inline-block;
-            padding-left: 100%;
             animation: marquee 6s linear infinite;
 
         }
@@ -98,9 +95,11 @@
 <body>
     <div class="wrapper">
         <h1 class="asabeneh"></h1>
-        <div class="activities marquee">
+        <div class="activities">
+        <div class="marquee">
             <p class="activity"></p>
         </div>
+    </div>
         <p class="text">I am Asabeneh Yetayeh. I am instructor, developer, motivator and content creator. I love
             educating people and creating educational materials. In January 2019, I also created a teaching material
             <span class="days">JavaScript for Everyone.</span> In December 2019, I created <span class="days">30 Days of
